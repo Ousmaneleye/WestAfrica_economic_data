@@ -13,7 +13,7 @@ final_df.drop(['pays'], axis=1, inplace=True)
 
 detail = get_detail(final_df)
 
-map = folium.Map(location=[11.9, -1.29], 
+carte = folium.Map(location=[11.9, -1.29], 
                 tiles='cartodbpositron', 
                 min_zoom=5, max_zoom=5.3,
                 width="%90", height="%100",
@@ -28,7 +28,7 @@ folium.Choropleth(final_df,                                # geo data
                 line_opacity=0.5,                    # line opacity (of the border)
                 name="Population par pays (Afrique de l'Ouest)",
                 show=True,
-                legend_name='Population par pays').add_to(map)
+                legend_name='Population par pays').add_to(carte)
 folium.Choropleth(final_df,                                
                   data=final_df,                           
                   key_on='feature.properties.name', 
@@ -38,7 +38,7 @@ folium.Choropleth(final_df,
                   line_opacity=0.5,                    
                   name="IDH par pays (Afrique de l'Ouest)",
                   show=False,
-                  legend_name='IDH par pays').add_to(map)
+                  legend_name='IDH par pays').add_to(carte)
 folium.Choropleth(final_df,                                
                   data=final_df,                           
                   key_on='feature.properties.name', 
@@ -48,7 +48,7 @@ folium.Choropleth(final_df,
                   line_opacity=0.5,                    
                   name="Dette (%PIB) par pays (Afrique de l'Ouest)",
                   show=False,
-                  legend_name='Dette (%PIB) par pays').add_to(map)
+                  legend_name='Dette (%PIB) par pays').add_to(carte)
 folium.Choropleth(final_df,                                
                   data=final_df,                           
                   key_on='feature.properties.name', 
@@ -58,7 +58,7 @@ folium.Choropleth(final_df,
                   line_opacity=0.5,                    
                   name="PIB/hbt (€) par pays (Afrique de l'Ouest)",
                   show=False,
-                  legend_name='PIB/hbt (€) par pays').add_to(map)
+                  legend_name='PIB/hbt (€) par pays').add_to(carte)
 folium.Choropleth(final_df,                                
                   data=final_df,                           
                   key_on='feature.properties.name', 
@@ -68,7 +68,7 @@ folium.Choropleth(final_df,
                   line_opacity=0.5,                    
                   name="PIB/an (M. €) par pays (Afrique de l'Ouest)",
                   show=False,
-                  legend_name='PIB/an (M. €) par pays').add_to(map)
+                  legend_name='PIB/an (M. €) par pays').add_to(carte)
 folium.Choropleth(final_df,                                
                   data=final_df,                           
                   key_on='feature.properties.name', 
@@ -78,10 +78,10 @@ folium.Choropleth(final_df,
                   line_opacity=0.5,                    
                   name="Déficit (%PIB) par pays (Afrique de l'Ouest)",
                   show=False,
-                  legend_name='Déficit (%PIB) par pays').add_to(map)
+                  legend_name='Déficit (%PIB) par pays').add_to(carte)
 
-folium.LayerControl(position='topright', collapsed=True).add_to(map)
-map.add_child(detail)
-map.keep_in_front(detail)
+folium.LayerControl(position='topright', collapsed=True).add_to(carte)
+carte.add_child(detail)
+carte.keep_in_front(detail)
 file_html = input("Give the name or path of the output as a file (.html) : ")
-map.save(file_html)
+carte.save(file_html)

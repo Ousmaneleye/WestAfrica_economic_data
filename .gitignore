@@ -1,0 +1,6 @@
+lib
+lib64
+include
+.ipynb_checkpoints/
+__pycache__/
+     

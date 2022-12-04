@@ -15,5 +15,6 @@ pip3 install -r requirements
 cd sources/
 python3 mat_plot.py
 ```
-### Output
+### Output [Example file : ]
 ![westafrica](https://user-images.githubusercontent.com/74149780/205484796-a954d442-7e1a-49ff-aa1e-f5d9c47c7899.png)
+

@@ -1,0 +1,15 @@
+{
+    "type": "Feature",
+    "properties": {
+        "name": "Cap Vert",
+        "code": "CV",
+        "group": "Countries"
+    },
+    "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+            [-23.60517, 15.12014], [-25.0646, 17.0195], [-24.32166538, 15.0333332]
+        ]
+    },
+    "_id": "cap vert"
+}

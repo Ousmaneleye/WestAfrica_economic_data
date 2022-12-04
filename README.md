@@ -26,6 +26,10 @@ python3 mat_plot.py
 ##### Plot Choices
 ![options_plot](https://user-images.githubusercontent.com/74149780/205486046-05b15fef-08ed-47d6-9c7c-379f3e2136f3.jpg)
 
+##### Scrolling a country to see information detail
+![detail](https://user-images.githubusercontent.com/74149780/205486585-ea5a19fd-7116-4534-81da-ff956a1f64b8.png)
+
+
 
 ### Output
 #### There's an example file is on `sources/westafrica.html`

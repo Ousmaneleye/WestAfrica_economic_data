@@ -20,8 +20,12 @@ cd sources/
 python3 mat_plot.py
 ```
 #### Open the saved file(html) on your browser to see the result !!!
-* Use the square on right to change plots data 
+* Click the square on right to change plots data 
 ![square](https://user-images.githubusercontent.com/74149780/205485872-f519e6aa-cea2-4a7f-b57b-1a25ae7da274.png)
+
+** Plot Choices
+![options_plot](https://user-images.githubusercontent.com/74149780/205486046-05b15fef-08ed-47d6-9c7c-379f3e2136f3.jpg)
+
 
 
 ### Output

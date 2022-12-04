@@ -27,9 +27,13 @@ python3 mat_plot.py
 ![options_plot](https://user-images.githubusercontent.com/74149780/205486046-05b15fef-08ed-47d6-9c7c-379f3e2136f3.jpg)
 
 
-
 ### Output
 #### There's an example file is on `sources/westafrica.html`
 
 ![westafrica](https://user-images.githubusercontent.com/74149780/205484796-a954d442-7e1a-49ff-aa1e-f5d9c47c7899.png)
 
+
+## Author
+
+* `Github` : https://github.com/Ousmaneleye
+* `Linkedin` : https://www.linkedin.com/in/ousmane-leye-407768199/

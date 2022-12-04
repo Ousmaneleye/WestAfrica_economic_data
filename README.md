@@ -1,8 +1,8 @@
 # WestAfrica_economic_data
 Ce projet est une analyse des données économiques des pays de l'Afrique de l'Ouest par représentation graphique sur la carte.
 
-Sources des données : https://fr.countryeconomy.com/pays/groupes/communaute-economique-etats-afrique-ouest/
-Modules python utilisées : `geopandas` `folium` `pandas` `requests`
+* Sources des données : https://fr.countryeconomy.com/pays/groupes/communaute-economique-etats-afrique-ouest/
+* Modules python utilisées : `geopandas` `folium` `pandas` `requests`
 
 ## Clone and run the program
 ```bash

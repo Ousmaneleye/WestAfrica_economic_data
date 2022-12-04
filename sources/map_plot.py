@@ -83,4 +83,5 @@ folium.Choropleth(final_df,
 folium.LayerControl(position='topright', collapsed=True).add_to(map)
 map.add_child(detail)
 map.keep_in_front(detail)
-map.save('westafrica.html')
+file_html = input("Give the name or path of the output as a file (.html) : ")
+map.save(file_html)

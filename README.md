@@ -21,6 +21,8 @@ python3 mat_plot.py
 ```
 #### Open the saved file(html) on your browser to see the result !!!
 * Use the square on right to change plots data 
+![square](https://user-images.githubusercontent.com/74149780/205485818-c150a764-4823-4c6f-bca0-8e079249ee01.png)
+
 ### Output
 #### There's an example file is on `sources/westafrica.html`
 

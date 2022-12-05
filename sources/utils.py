@@ -8,6 +8,7 @@ highlight_function = lambda x: {'fillColor': '#000000',
                                 'fillOpacity': 0.50, 
                                 'weight': 0.1}
 def get_detail(data):
+    "Detail shown while scrolling a country"
     return folium.features.GeoJson(
         data = data,
         style_function=style_function, 

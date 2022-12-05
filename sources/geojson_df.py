@@ -1,5 +1,8 @@
+################ Get Dataframe from geojson ###############
+
 import geopandas
 import pandas as pd
+
 countries = [
     'benin', 'burkina_faso', 'cap_vert', 'gambia', 'ghana',
     'guinea', 'guinea_bissau', 'ivory_coast', 'liberia',
